@@ -1,4 +1,27 @@
-# Song queue
+# API Song & queue
+
+### Основные файлы проекта
+
+Роуты для API:
+<a href="https://github.com/igshein/rest-api-laravel/blob/master/app/routes/api.php">api.php</a>
+
+HTTP контроллер для Song:
+<a href="https://github.com/igshein/rest-api-laravel/blob/master/app/app/Http/Controllers/Song/SongController.php">SongController.php</a>
+
+Модуль Song:
+<a href="https://github.com/igshein/rest-api-laravel/tree/master/app/app/Modules/Song">Modules/Song</a>
+
+Методы сервиса Song:
+<a href="https://github.com/igshein/rest-api-laravel/blob/master/app/app/Modules/Song/Services/SongService.php">SongService.php</a>
+
+Worker очереди:
+<a href="https://github.com/igshein/rest-api-laravel/blob/master/app/app/Jobs/SongsQueue.php">SongsQueue.php</a>
+
+Модель Song:
+<a href="https://github.com/igshein/rest-api-laravel/blob/master/app/app/Modules/Song/Models/Song.php">Song.php</a>
+
+Миграция Song:
+<a href="https://github.com/igshein/rest-api-laravel/blob/master/app/database/migrations/2020_06_20_135014_create_songs_table.php">create_songs_table.php</a>
 
 ## Clear all and start application from scratch
 
